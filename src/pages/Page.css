@@ -1,0 +1,7 @@
+@import "../styles/global.css";
+
+.page-container {
+    min-width: 960px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
