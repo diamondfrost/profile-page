@@ -1,0 +1,17 @@
+@import "./styles/global.css";
+
+#root {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  width: 100%;
+  font-family: var(--font-style);
+  background-color: var(--main-background);
+  color: var(--primary-text);
+}

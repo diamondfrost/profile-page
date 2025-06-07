@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "target": "ES2022",
+        "jsx": "react-jsx",
+        "allowImportingTsExtensions": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "baseUrl": ".",
+        "paths": {
+            "@": ["src/*"],
+            "@components": ["src/components/*"],
+            "@pages": ["src/pages/*"],
+            "@config": ["src/config/*"],
+            "@assets": ["src/assets/*"],
+        },
+    },
+    "include": ["src"],
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
