@@ -12,27 +12,27 @@
 }
 
 :root{
-    --main-background: #ede8d7;
+    --main-background: #EDE5C8;
+    --highlighted-background: #E7D8B1;
     --primary-text: #374632;
-    --secondary-text: #5a7a4e;
-    --button-background: #374632;
-    --button-background-pressed: #839c69;
-    --button-text: #FFFFFF;
+    --secondary-text: #6d885a;
+    --button-background: #3B6C70;
+    --button-background-pressed: #BCE1DC;
+    --button-text: #BCE1DC;
+    --button-text-pressed: #3B6C70;
     --card-background: #fdf8e9;
-    --navigation-text: #272727;
-    --active-nav-link: #839c69;
     --font-style: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 [theme-mode="dark"] {
-    --main-background: #0D1117;
-    --primary-text: #F0F6FC;
-    --secondary-text: #8B949E;
-    --button-background: #26caf7;
-    --button-background-pressed: #83e3fd;
-    --button-text: #FFFFFF;
-    --card-baßckground: #161B22;
-    --navigation-text: #C9D1D9;
-    --active-nav-link: #89c2f5;
+    --main-background: #1c102c;
+    --highlighted-background: #2C2741;
+    --primary-text: #89BFFF;
+    --secondary-text: #4197ff;
+    --button-background: #FF6EC7;
+    --button-background-pressed: #EFD5EF;
+    --button-text: #EFD5EF;
+    --button-text-pressed: #FF6EC7;
+    --card-background: #2F2B44;
     --font-style: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
