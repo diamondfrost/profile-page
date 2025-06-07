@@ -8,7 +8,7 @@
     flex-direction: row;
     justify-content: space-between;
     z-index: 12;
-    border-bottom: 1px solid var(--secondary-text);
+    border-bottom: 1px solid var(--primary-text);
 }
 
 .bars-icon {
@@ -26,7 +26,7 @@
     border-radius: 4px;
     background: var(--button-background);
     padding: 10px 22px;
-    color: var(--secondary-text);
+    color: var(--button-text);
     outline: none;
     border: none;
     cursor: pointer;
@@ -38,7 +38,7 @@
 .nav-button-link:hover {
     transition: all 0.2s ease-in-out;
     background: var(--button-background-pressed);
-    color: var(--secondary-text);
+    color: var(--button-text-pressed);
 }
 
 .nav-menu {
@@ -57,7 +57,7 @@
     font-weight: 400;
 }
 .nav-link.active {
-    color: var(--active-nav-link);
+    color: var(--secondary-text);
     font-weight: 700;
 }
 
