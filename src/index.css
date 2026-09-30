@@ -112,7 +112,7 @@ h1, h2, h3, .display {
     transition: opacity 0.9s ease, transform 1s var(--ease-expo);
     transition-delay: var(--d, 0s);
 }
-.reveal.in {
+.reveal[data-in] {
     opacity: 1;
     transform: none;
 }

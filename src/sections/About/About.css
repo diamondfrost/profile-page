@@ -11,7 +11,7 @@
     background-size: 0% 3px;
     transition: background-size 0.8s var(--ease-expo) 0.9s;
 }
-.statement-big.in .hl {
+.statement-big[data-in] .hl {
     background-size: calc(100% - 0.3em) 3px;
 }
 

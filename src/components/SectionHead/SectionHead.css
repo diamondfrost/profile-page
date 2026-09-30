@@ -24,7 +24,7 @@
     opacity: 0.5;
     transition: width 0.9s var(--ease-expo) 0.3s;
 }
-.sec-head.in .sec-kicker::after {
+.sec-head[data-in] .sec-kicker::after {
     width: clamp(40px, 8vw, 120px);
 }
 
@@ -51,7 +51,7 @@
     clip-path: inset(0 100% 0 0);
     transition: clip-path 1.4s var(--ease-expo) 0.25s;
 }
-.sec-head.in .sec-title .fill {
+.sec-head[data-in] .sec-title .fill {
     clip-path: inset(0 0 0 0);
 }
 
