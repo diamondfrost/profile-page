@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url('../assets/fonts/proximanova_light.otf') format('opentype');
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url('../assets/fonts/proximanova_regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url('../assets/fonts/proximanova_bold.otf') format('opentype');
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url('../assets/fonts/proximanova_extrabold.otf') format('opentype');
+    font-weight: 800;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url('../assets/fonts/proximanova_black.otf') format('opentype');
+    font-weight: 900;
+    font-display: swap;
+}
+
+:root,
+[theme-mode="dark"] {
+    --bg: #070c18;
+    --bg-2: #0c1325;
+    --bg-3: #121b33;
+    --ink: #e9eef8;
+    --muted: #8795b0;
+    --line: #1c2842;
+    --accent: #3d8bff;
+    --accent-ink: #050a16;
+    --accent-soft: rgba(61, 139, 255, 0.14);
+    --accent-2: #f2b84b;
+    --up: #2ecc8f;
+    --down: #ff5c6c;
+    --outline: rgba(233, 238, 248, 0.3);
+    --outline-faint: rgba(233, 238, 248, 0.1);
+    --gridline: rgba(61, 139, 255, 0.06);
+    --header-bg: rgba(7, 12, 24, 0.85);
+    --grain-opacity: 0.035;
+
+    --font-display: 'Anton', 'Arial Narrow', sans-serif;
+    --font-body: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+    --ease-out: cubic-bezier(0.19, 1, 0.22, 1);
+    --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --pad-x: clamp(1rem, 4vw, 4rem);
+}
+
+[theme-mode="light"] {
+    --bg: #f3f6fc;
+    --bg-2: #e8eef8;
+    --bg-3: #dce5f3;
+    --ink: #0a1428;
+    --muted: #55627c;
+    --line: #c9d4e6;
+    --accent: #1557d6;
+    --accent-ink: #f3f6fc;
+    --accent-soft: rgba(21, 87, 214, 0.1);
+    --accent-2: #a86b00;
+    --up: #0f8a5f;
+    --down: #cc2b3d;
+    --outline: rgba(10, 20, 40, 0.35);
+    --outline-faint: rgba(10, 20, 40, 0.1);
+    --gridline: rgba(21, 87, 214, 0.07);
+    --header-bg: rgba(243, 246, 252, 0.88);
+    --grain-opacity: 0.05;
+}

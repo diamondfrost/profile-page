@@ -1,0 +1,95 @@
+.statement-big {
+    max-width: 20ch;
+    font-size: clamp(2rem, 6vw, 5rem);
+    line-height: 1.04;
+}
+.statement-big .hl {
+    color: var(--accent);
+    background-image: linear-gradient(var(--accent-2), var(--accent-2));
+    background-repeat: no-repeat;
+    background-position: 0 92%;
+    background-size: 0% 3px;
+    transition: background-size 0.8s var(--ease-expo) 0.9s;
+}
+.statement-big[data-in] .hl {
+    background-size: calc(100% - 0.3em) 3px;
+}
+
+.statement-cols {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 3rem;
+    max-width: 980px;
+    margin: clamp(2.5rem, 6vh, 4.5rem) 0 0 auto;
+}
+.statement-cols p {
+    color: var(--muted);
+    font-size: 1.05rem;
+}
+.statement-cols strong {
+    color: var(--ink);
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: clamp(3rem, 8vh, 5.5rem);
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+}
+.stat {
+    padding: 1.6rem 1.4rem;
+    border-right: 1px solid var(--line);
+}
+.stat:last-child {
+    border-right: 0;
+}
+.stat-num {
+    font-size: clamp(3rem, 8vw, 6rem);
+    line-height: 1;
+    color: var(--accent);
+}
+.stat-num sup {
+    font-size: 0.45em;
+    vertical-align: top;
+    margin-left: 0.05em;
+}
+.stat-num--alt {
+    color: var(--accent-2);
+}
+.stat-label {
+    margin-top: 0.6rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+.stat-delta {
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    border-top: 1px dashed var(--line);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--muted);
+}
+.stat-delta--up,
+.stat-delta--down {
+    color: var(--up);
+}
+
+@media (max-width: 800px) {
+    .statement-cols {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stat:nth-child(2n) {
+        border-right: 0;
+    }
+    .stat:nth-child(-n + 2) {
+        border-bottom: 1px solid var(--line);
+    }
+}
