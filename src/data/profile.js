@@ -143,7 +143,7 @@ export const education = {
 };
 
 export const certifications = [
-    { name: 'Cybersecurity Course', issuer: 'NUS x Emeritus', date: 'Mar – Jun 2025' },
+    { name: 'Cybersecurity Course', issuer: 'NUS x Emeritus', date: 'Mar – Aug 2026' },
     { name: 'Certified Scrum Master (CSM)', issuer: 'Scrum Alliance', date: 'Certified' },
     { name: 'Java Development Training Programme', issuer: 'FDM Group', date: 'May – Oct 2020' },
     { name: 'Cybersecurity and Ethical Hacking', issuer: 'CODESTACK.PH', date: 'Jun 2019' },
